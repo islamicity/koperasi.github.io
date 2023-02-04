@@ -12,7 +12,7 @@ The GITHUB_TOKEN is given the necessary permissions (read access to contents, wr
 
 The workflow contains two jobs:
 
-Build job
+<b>Build job</b>
 
 Runs on an Ubuntu latest environment
 Four steps are executed:
@@ -20,7 +20,8 @@ Checkout: uses the actions/checkout@v3 action to checkout the code
 Setup Pages: uses the actions/configure-pages@v3 action to set up the Pages environment
 Build with Jekyll: uses the actions/jekyll-build-pages@v1 action to build the Jekyll site, with the source and destination specified
 Upload artifact: uses the actions/upload-pages-artifact@v1 action to upload the artifact
-Deployment job
+
+<b>Deployment job</b>
 
 Runs on an Ubuntu latest environment
 Depends on the successful completion of the build job
